@@ -1,0 +1,36 @@
+
+/* HEADER */
+.welcome{
+    color: #13446e;
+    font-size: 1.5em;
+    align-self: end;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.header__container{
+    border-bottom: outset;
+    border-bottom-color: #13446e;
+}
+
+
+/* MAIN */
+
+.ul__accordion{
+    text-align: start;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.ul__accordion > li:hover{
+    color: #0b9287;
+}
+
+.ul__accordion li{
+    margin-bottom: 0.70em;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}

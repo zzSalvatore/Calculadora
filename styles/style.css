@@ -1,0 +1,41 @@
+[data-img="header"]{
+    z-index: 0;
+    position: fixed;  
+}
+
+.header__container{
+    display: flex;
+    width: 100vw;
+    justify-content: flex-end;
+    z-index: 1;
+    position: relative;
+    padding: 2em;
+}
+
+[data-nav="header"]{
+    background-color: black;
+}
+
+/* CONTAINER DO LOGIN */
+
+.form-control{
+    display: block;
+    width: 20rem;   
+}
+
+.main__container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+
+.title{
+    padding-bottom: 1em;
+}
+
+.col-12, .col-md-6{
+    margin-top: 1.2em;
+}
+
