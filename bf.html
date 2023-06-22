@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/bf.css">
+    <title>Gordura Corporal</title>
+</head>
+<body>
+<!-- 
+BT= (1,20 x IMC) + (0,23 x idade) – (10,8 x sexo) – 5.4. 
+Homem = 1 
+Mulher = 0
+-->
+
+<section>
+    <form>
+        <div class="container_head">
+            <h1>Gordura Corporal</h1>
+        </div>
+        <div class="container_body">
+
+            <label for="sexo">Sexo</label>
+            <select name="sexo" id="sexo">
+            <option value="selecione">Selecione o Sexo</option>        
+            <option value="homem">Homem</option>
+            <option value="mulher">Mulher</option>
+            </select>
+
+            <label for="peso">Peso</label>
+            <input type="text" id="peso" placeholder="Ex: 70 Kg">
+            <label for="altura">Altura</label>
+            <input type="text" id="altura" placeholder="Ex: 1,75 m">
+
+            <label for="idade">Idade</label>
+            <input type="text" id="idade" placeholder="Digite sua Idade">
+
+            <div class="resposta">
+                <h1 id="resposta"></h1>
+            </div>
+        </div>
+        <div class="container_footer">
+            <button type="button" id="limpar">Limpar</button>
+            <button type="button" id="calcular">Calcular</button>
+        </div>
+    </form>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./script/bf.js"></script>    
+</body>
+</html>
